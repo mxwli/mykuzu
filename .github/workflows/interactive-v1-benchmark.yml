@@ -4,8 +4,7 @@ env:
   RUNTIME_CHECKS: 1
   WERROR: 1
 
-on:
-  workflow_dispatch:
+on: push
 
 jobs:
   benchmark:
